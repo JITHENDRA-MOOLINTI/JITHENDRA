@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+    color: white;
+    font-size: 1.6rem;
+}
+.nav-selection li{
+    color: white;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+.nav-selection ul{
+    display: flex;
+    padding-left: 60px;
+
+}
+
+.home{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left ,.right{
+    width:30%;
+    height: 300px;
+    margin-top: 80px;
+    padding: 25px;
+    border-radius: 50%;
+}
+.left p{
+    color: white;
+    font-size: 2.3rem;
+    padding-top: 15px;
+}
+span{
+    color: rgb(70, 70, 203);
+}
+#input1{
+    width: 130px;
+    height: 30px;
+    text-align: center;
+     margin-top: 70px;
+     border-radius: 4px;
+     color: white;
+     background-color: rgb(12, 12, 247);
+     font-size: 0.9rem;
+     border-style: none;
+}
+.right{
+    margin-right: 70px;
+    background-image: url("IMG_20220208_205238_602.jpg");
+     background-size: cover;
+     background-position-x: 20%;
+}
+.right:hover,.left:hover{
+    transform: scale(1.3);
+}
+#input1:hover{
+    border: 2px solid white;
+}
+.main{
+    background-color:lightgray;
+}
+h2{
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+.img{
+    width: 25%;
+    height: 400px;
+    background-image: url("imag2.jpg");
+    background-size: cover;
+    margin: 10px 50px 20px 10px;
+    border-radius: 5px;
+    background-position-x:25%;
+}
+.inner-about{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.content1{
+    width: 60%;
+    height: 400px;
+    flex: 1;
+}
+.content1 p{
+    font-size: 1.3rem;
+    color:#333333 ;
+}
+.content1 p:nth-child(1){
+    margin:20px 0px;
+}
+.content1 p:nth-child(2){
+    margin: 20px 0px;
+}
+.content1 p:nth-child(3){
+    margin: 20px 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+hr{
+    margin-top: 0px;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(55, 55, 117) 10%,white 70%, rgb(68, 68, 160) 90%);
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.skill-box{
+    width: 23%;
+    height: 470px;
+    display: grid;
+    justify-items: center;
+    flex: 1;
+}
+.inner-box{
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+}
+.inner-box1{
+    width: 80%;
+    height: 240px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.image{
+    background-size: cover;
+    border-radius: 5%;
+}
+.img1{
+    background-image:url("java.jpg");
+}
+.img2{
+    background-image: url("sql1.jpg");
+    background-position-y: 40%;
+}
+.img3{
+    background-image: url("html1.jpg");
+    background-position-y: 20%;
+}
+.img4{
+    background-image: url("css1.jpg");
+    background-position-y: 20%;
+}
+h4{
+    font-size: 1.3rem;
+}
+.gs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gsbox{
+    width: 20%;
+    height: 300px;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 5px;
+}
+.gs-img{
+    width: 100px;
+    height:100px ;
+    padding: 10px;
+    margin: 30px 0px 0px 50px;
+}
+h6{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.projects{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, #a8e6cf 40%,#fef3d3 90%);
+}
+.pbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.psbox{
+    width: 40%;
+    height: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(142, 34, 177);
+}
+.project1 p{
+    margin-top: 20px;
+    font-weight: 1.2rem;
+}
+.project2 p{
+    margin-top: 20px;
+    font-weight: 1.2rem;
+}
+.project1 p>strong,.project2 p>strong{
+    font-size: 1.3rem;
+}
+li a:hover{
+    font-size: 1.4rem;
+    color: #6118b4;
+    transform: scale(1.4rem);
+}
+.certifiactes{
+    width: 100vw;
+   height: 100vh;
+   background-color: black;
+}
+.cert{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.bc1{
+    width:30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.certifiactes h2{
+    color: #83DB50;
+}
+.c-img{
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+    background-image: url("hackerank.png");
+    background-position-y:50%;
+    background-position-x:50%;
+}
+#hacker{
+    font-size: 1.2rem;
+    color: #6118b4;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#data{
+    color: white;
+    font-size: 1.0rem;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#vc{
+    padding-left: 20px;
+    margin-top: 5px;
+}
+#vc:hover{
+    color: yellow;
+}
+.cm{
+    width: 100vw;
+   height: 100vh;
+   background-color: black;
+   position: relative;
+   box-sizing: border-box;
+}
+.cm h2{
+    color: #83DB50;
+}
+
+.cm-box{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.cm-box p{
+    color: white;
+    margin:10px 0px;
+}
+input[required]{
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+button{
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    border-radius: 5%;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    outline: none;
+}
+button:hover,input[required]:hover,textarea:hover{
+    border:2px solid red;
+}
+.footer{
+    background-color:rgb(113, 145, 27);
+    width: 100vw;
+    height: 100px;
+    color: white;
+}
+.f-icons{
+    padding-top: 40px;
+    text-align: center;
+}
+.f-icons i{
+    padding-left: 15px;
+}
+.f-icons span{
+    color: white;
+}
+.f-icons i:nth-child(2):hover{
+    font-size: 1.3rem;
+    color: blue;
+}
+.f-icons i:nth-child(3):hover{
+    font-size: 1.3rem;
+    color: black;
+}
+.f-icons i:nth-child(4):hover{
+    font-size: 1.3rem;
+    color: blue;
+}
+.f-icons i:nth-child(5):hover{
+    font-size: 1.3rem;
+    color: orange;
+}
+.f-icons i:nth-child(6):hover{
+    font-size: 1.3rem;
+    color: green;
+}
+.copy span{
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.copy{
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (min-width:280px) and (max-width:768px){
+    .nav{
+        flex-direction: column;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .nav-selection li{
+        font-size: 0.85rem;
+    }
+    .nav-selection ul{
+       margin-right: 80px;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .left{
+        position: relative;
+        margin: 20px;
+        padding-top: 20px;
+        width: 100%;
+        pointer-events: none;
+    }
+    #input1{
+        margin-top: 10px;
+    }
+    .right{
+        height: 400px;
+        width: 70%;
+        margin: 10px 10px 10px 70px;
+        padding: 10px;
+        pointer-events: none;
+        background-position: center center;
+    }
+    .inner-about{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .img{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .content1{
+        width: 100%;
+    }
+    .content1 p{
+        width: 100%;
+        padding:0px 20px;
+        margin: 0px;
+    }
+    h2{
+        padding: 0px;
+    }
+    .skills{
+        width: 100%;
+        height: auto;
+    }
+    .boxes{
+       flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px 10px;
+    }
+    .skill-box{
+        width: 100%;
+        padding: 10px;
+        height: 430px;
+        margin: 20px 0px;
+    }
+    .gs{
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .gsbox{
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        margin: 20px auto;
+    }
+    .cm{
+        width: auto;
+    }
+    .inner-box{
+        width: 80%;
+        height: 170px;
+    }
+    .image{
+        background-position-y:50%;
+    }
+    .inner-box1{
+        height: auto;
+    }
+    .gs-img{
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        height: 60%;
+        padding: 60px;
+    }
+    .box h2{
+        padding-top: 20px;
+    }
+    h6{
+        margin-top: auto;
+    }
+    .pbox{
+        flex-direction: column;
+        width: 100%;
+    }
+    .psbox{
+        width: 100%;
+        height: auto;
+    }
+    .projects{
+        width: 100%;
+        height: auto;
+    }
+    .cert{
+       flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .bc1{
+        width: 100%;
+        height: auto;
+    }
+    .c-img{
+        width: 30%;
+        height: 100%;
+        background-image: url("hackerank.png");
+        background-size: cover;
+        background-position: center center;
+    }
+    .cm{
+        box-sizing: border-box;
+    }
+    .cm-box{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    
+}
+
+
