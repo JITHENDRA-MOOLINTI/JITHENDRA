@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Pass</title>
+</head>
+<body>
+    <center>
+       <img src="apsrtc.jpg" alt="apsrtc logo" size="100px" width="100px">
+         <h1>ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</h1>
+         <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    <form action="">
+        <fieldset>
+        <legend>Applicant Details</legend>
+        <label for="name">Name*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="username" id="name" maxlength="20" required>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="fname">Father's/Guardian's Name*</label>
+         <input type="text" name="fname" id="fname" required>
+        <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>(Maximum Characters:20)</small><br><br>
+         <label for="dob">Date Of Birth*</label>
+         &nbsp;&nbsp;
+         <input type="date" id="dob" name="dob" required>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="g">Gender*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" id="g" required>
+         <label for="">Female</label>
+         <input type="radio" name="gender">
+         <label for="g">Male</label><br><br>
+         <label for="">Age As On</label>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+         <input type="number" name="" id="" min="10" max="60">
+         <label for="">Year(s)</label>
+         <input type="number" width="40px" min="1" max="12" >
+         <label for="">Month(s)</label>
+         <input type="number" width="1px" min="1" max="365">
+         <label for="">Day(s)</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for="adhar">Aadhar No:</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="text" id="adhar" maxlength="12" minlength="12"><br><br>
+         <label for="phnumber">WhatsApp No*</label>
+         &nbsp;
+         <input type="tel" name="ph" id="phnumber" required>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for="mail">E-mail id*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="email" id="mail" name="email" required>
+         <br><br>
+         <label for="">Photo*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp; &nbsp;&nbsp;
+         <input type="file" accept=".jpg" >
+    </fieldset>
+    <fieldset>
+        <legend>Residential Address Details</legend>
+         <label for="Address">Applicant Address*</label>
+         <textarea name="Address" id="Address" rows="10" cols="20"></textarea>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <label for="Dis">District*</label>
+         <select name="District" id="Dis" required>
+            <option value="" selected disabled>Select</option>
+            <optgroup label="Dists">
+            <option value="Tirupati">Tirupati</option>
+            <option value="Chittoor">Chittoor</option>
+            <option value="Nellore">Nellore</option>
+            </optgroup>
+         </select>
+         <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+         <small>Maximum Characters:20</small><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <small>You have<input type="number" max="20" min="0"> Characters left</small><br><br>
+        <label for="">Mandal*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="" id="">
+            <option value="" disabled selected>select</option>
+            <optgroup label="mandal">
+               <option value="Ramapuram">Ramapuram</option>
+               <option value="Sriramapuram">Sriramapuram</option>
+               <option value="Vedaramapuram">Vedaramapuram</option>
+            </optgroup>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;
+        <label for="">Village*</label>
+        <select name="" id="">
+            <option value="" disabled selected>select</option>
+            <optgroup label="Village">
+               <option value="Jakkidona">Jakkidona</option>
+               <option value="Netaji">Netaji</option>
+               <option value="Tiruapti">Tiruapti</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="">Pin Code*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" min="100000" max="999999">
+    </fieldset>
+     <fieldset>
+        <legend>Pass Type Details</legend>
+        <label for="">City*</label>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="" id="">
+            <option value="">Hyderabadh</option>
+            <option value="">Tiruapti</option>
+            <option value="">Nellore</option>
+        </select>
+        <br><br>
+        <label for="">PassType*</label>
+        <select name="" id="">
+            <option value="">---Select----</option>
+            <option value="">Student</option>
+            <option value="">Employee</option>
+        </select>
+     </fieldset>
+     <fieldset>
+        <legend>Mode Of Payment & Pass Collection</legend>
+         <label for="">Payment Mode*</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+        
+         <select name="" id="">
+            <option value="">--Select Payement Mode--</option>
+            <option value="">Offline</option>
+            <option value="">Online</option>
+         </select><br><br>
+         <label for="">Pass Delivery Mode*</label>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <select name="" id="">
+            <option value="">Select Pass Delivery Mode</option>
+            <option value="">Offline</option>
+            <option value="">Online</option>
+         </select><br><br>
+         <label for="">Center at which You <br>Want Pass Collect Pass?</label>
+          &nbsp;&nbsp;
+         <select name="" id="">
+            <option value="">---Select----</option>
+            <option value="">Online</option>
+            <option value="">Offline</option>
+         </select>
+     </fieldset>
+     <br>
+     <center>
+        <img src="capcha.jpg" alt="" width="200px" height="70px"><br>
+        <label for="">Above Capcha Type Here</label><br><br>
+        <input type="text"><br><br>
+        <input type="submit">
+     </center>
+    </form>
+</body>
+</html>
